@@ -1,102 +1,98 @@
-<!-- DARK MODE README -->
+<!-- README.md - Abdulrahman Muhammed Abdelmunim - Dark & Light with Animated Banner -->
 
-<div align="center">
-
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:001F3F,100:005F9E&height=200&text=Abdulrahman%20Muhammed%20Abdelmunim&fontSize=38&fontColor=ffffff&animation=fadeIn)
-
-<p>
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=.NET+Developer;System+Administrator;Help+Desk+Specialist;Healthcare+IT+%26+Data+Management;Always+Learning+New+Technologies&center=true&color=00E3FF&size=22">
-</p>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abdulrahmanmunimx/)
-[![Email](https://img.shields.io/badge/Email-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white)](mailto:abdulrahman970213@outlook.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/abdulrahman0000123)
-
----
-
-## 🧑‍💻 **About Me**
-I'm an IT Specialist and .NET Developer with **6+ years of experience** across:
-
-✔ Healthcare Information Technology (HIT/HIS)  
-✔ Windows Server Administration (AD, DNS, DHCP, GPO)  
-✔ .NET Application Development  
-✔ Technical Support & Help Desk  
-✔ Data Management & Reporting  
-✔ Software Testing (CSTE Certified)  
-✔ AI Tools & Automation  
-
-Worked at both **Egypt Healthcare Authority** and **GAHAR**, focusing on efficient systems, reliable infrastructure, and accurate healthcare data.
-
-Currently developing skills in full-stack .NET development, cloud technologies, and advanced system automation.
-
----
-
-## 🎓 **Education**
-🎓 *Post-Graduate Diploma in Computer Science* — **Cairo University (2025–2027)**  
-🎓 *Bachelor's in Health Technology & Information Management* — **Beni-Suef University (Excellent)**  
-
----
-
-## 🛠️ **Technical Skills**
-
-<img src="https://go-skill-icons.vercel.app/api/icons?i=cs,dotnet,sqlserver,html,css,js,vba,excel,git,windows,linux,postman,swagger,github,powershell,visualstudio&perline=8" height="150"/>
-
----
-
-## 🏅 **Certifications**
-- 🥇 Certified Software Tester (CSTE) – MCIT Egypt  
-- 🥇 ALX AICE – AI & Generative Tools  
-- 🥇 Virtual Assistant – ALX  
-- 🥇 Cybersecurity – Cisco  
-- 🥇 ICDL Health & IT Certifications (12+)  
-
----
-
-## 🚀 **Projects**
-
-### 🔹 Horus Patient ERP – Healthcare Authority  
-**Technologies:** VBA, Excel, DB Systems  
-- Patient emergency & inpatient record system  
-- Unified database  
-- Reporting & automated tickets  
-- 3 office interfaces: Emergency / Admission / Medical Records  
-
----
-
-## 🏆 **Achievements**
-✔ 6+ years in Healthcare IT  
-✔ Built ERP modules used in real hospitals  
-✔ Supporting IT infrastructure for critical national systems  
-✔ Certified in Software Testing, Cybersecurity & AI  
-
----
-
-## 📊 **GitHub Stats**
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=abdulrahman0000123&show_icons=true&theme=tokyonight&hide_border=true" height="165">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=abdulrahman0000123&theme=tokyonight&hide_border=true" height="165">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abdulrahman0000123&layout=compact&theme=tokyonight&hide_border=true" height="120">
-
-</div>
-
----
-
-## 🐍 Contribution Snake
+<!-- Banner (uses SVG which adapts to dark/light) -->
 <p align="center">
-  <img src="https://github.com/abdulrahman0000123/abdulrahman0000123/blob/output/snake-dark.svg"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+    <img alt="Abdulrahman Muhammed Abdelmunim" src="assets/banner-light.svg" style="max-width:100%;height:auto;">
+  </picture>
+</p>
+
+<h1 align="center">Hi, I'm Abdulrahman Muhammed Abdelmunim 👋</h1>
+<h3 align="center">.NET Developer • System Administrator • Help Desk Specialist • Healthcare IT & Data Management</h3>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/abdulrahmanmunimx/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:cw_16450321@hotmail.com"><img src="https://img.shields.io/badge/Email-cw_16450321%40hotmail.com-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white" alt="Email"></a>
+  <a href="mailto:abdulrahman970213@outlook.com"><img src="https://img.shields.io/badge/Email-abdulrahman970213%40outlook.com-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white" alt="Email2"></a>
+  <a href="https://github.com/abdulrahman0000123"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
 </p>
 
 ---
 
-## 🔗 **Contact Me**
-<a href="mailto:abdulrahman970213@outlook.com"><img height="40" src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png"></a>
-<a href="https://www.linkedin.com/in/abdulrahmanmunimx/"><img height="40" src="https://cdn-icons-png.flaticon.com/512/174/174857.png"></a>
+## 🚀 About Me
+I’m an IT & Software professional with **6+ years** experience in healthcare IT, system administration, .NET development, and tech support. I combine backend development skills with system reliability practices and strong domain knowledge in healthcare information systems.
+
+**Currently:** .NET Developer / Healthcare Licensing & Credentialing Specialist at GAHAR.
+
+**Core:** Windows Server (AD, DNS, DHCP), .NET (Framework/Core), APIs, Databases, Help Desk, Software Testing (CSTE), Automation & AI tools.
 
 ---
 
-![footer](https://capsule-render.vercel.app/api?type=waving&color=0:005F9E,100:001F3F&height=120&section=footer)
+## 🎯 Highlights & Achievements
+- 6+ years in Healthcare IT & Systems  
+- Built **Horus Patient ERP** modules used in hospital workflows  
+- Certified Software Tester (CSTE) — MCIT Egypt  
+- Multiple certifications: ALX AICE (AI), ICDL, Cisco cybersecurity modules
 
-</div>
+---
+
+## 🧰 Skills
+
+<p align="left">
+  <img src="https://go-skill-icons.vercel.app/api/icons?i=cs,dotnet,sqlserver,html,css,js,vba,excel,git,windows,linux,postman,swagger,visualstudio&perline=8" height="120"/>
+</p>
+
+---
+
+## 💼 Experience (summary)
+**.NET Developer — GAHAR**  
+- Backend and API development, system optimization, features delivery.
+
+**System Administrator — Egypt Healthcare Authority**  
+- Windows Server administration, AD, DNS, DHCP, backups, DR.
+
+**Help Desk Specialist**  
+- Tier 1/2 support, ticketing, user training, hardware/software troubleshooting.
+
+---
+
+## 🔧 Projects (Highlighted)
+### Horus Patient ERP  
+**Tech:** VBA, Excel, Database systems  
+- Patient emergency & inpatient records, unified DB, automated reports & ticket printing.  
+- Interfaces: Emergency Office / Admission Office / Medical Records.
+
+*(Add more projects below — see "How to add more projects" section.)*
+
+---
+
+## 📊 GitHub Stats & Activity
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=abdulrahman0000123&show_icons=true&theme=tokyonight" height="160" alt="GitHub Stats">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=abdulrahman0000123&theme=tokyonight" height="160" alt="Streak">
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abdulrahman0000123&layout=compact&theme=tokyonight" height="120" alt="Top Languages">
+</p>
+
+---
+
+## 🐍 Animated Snake (auto-updated)
+<p align="center">
+  <img src="assets/snake-dark.svg" alt="Snake (auto-update)" style="max-width:100%;">
+</p>
+
+> The snake SVG is updated daily by a GitHub Action (changes color / timestamp) so the image looks dynamic.
+
+---
+
+## 📂 How to add more Projects / Achievements
+Edit this `README.md` and add more project cards under the **Projects** section. Example card:
+
+```md
+### Project Name — Short Tagline
+**Tech:** .NET, SQL Server, Docker  
+- 1–2 bullets describing impact, outcomes, and your role.
