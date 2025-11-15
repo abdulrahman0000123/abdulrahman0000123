@@ -80,34 +80,6 @@ I’m an IT & Software professional with **6+ years** experience in healthcare I
 
 ---
 
-## 🐍 Animated Snake (auto-updated)
-<p align="center">
-  <img src="assets/snake-dark.svg" alt="Snake (auto-update)" style="max-width:100%;">
-</p>
-
-> The snake SVG is updated daily by a GitHub Action (changes color / timestamp) so the image looks dynamic.
-
----
-
-## 📂 How to add more Projects / Achievements
-Edit this `README.md` and add more project cards under the **Projects** section. Example card:
-
-```md
-### Project Name — Short Tagline
-**Tech:** .NET, SQL Server, Docker  
-- 1–2 bullets describing impact, outcomes, and your role.
-```
-
----
-
-## ⚙️ Files added to this repository
-
-- **README.md** (this file)
-- **assets/banner-dark.svg** & **assets/banner-light.svg** (SVG banners)
-- **assets/snake-dark.svg** & **assets/snake-light.svg** (snake images used by README)
-- **.github/workflows/update-snake.yml** (workflow that updates snake daily)
-
----
 
 ## 📬 Contact
 
