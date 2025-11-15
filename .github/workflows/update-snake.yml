@@ -1,0 +1,58 @@
+name: Update Snake SVG Daily
+on:
+  schedule:
+    - cron: '0 2 * * *'   # daily at 02:00 UTC (يمكن تغييره)
+  workflow_dispatch:
+
+jobs:
+  update-snake:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Regenerate snake SVGs (rotate color & timestamp)
+        run: |
+          mkdir -p assets
+          TIMESTAMP="$(date -u +"%Y-%m-%d %H:%M:%S UTC")"
+          HUE=$((RANDOM % 360))
+          
+          cat > assets/snake-dark.svg << EOF
+          <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+          <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="120" viewBox="0 0 1000 120" preserveAspectRatio="xMidYMid meet">
+            <rect width="100%" height="100%" fill="#0b0f12"/>
+            <g transform="translate(50,20)">
+              <text x="0" y="48" font-family="Courier New, monospace" font-size="40" fill="hsl(${HUE},80%,60%)">🐍 Abdulrahman's Activity Snake</text>
+              <text x="0" y="90" font-family="Arial, sans-serif" font-size="12" fill="#aab0b6">Updated: ${TIMESTAMP}</text>
+            </g>
+          </svg>
+          EOF
+          
+          cat > assets/snake-light.svg << EOF
+          <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+          <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="120" viewBox="0 0 1000 120" preserveAspectRatio="xMidYMid meet">
+            <rect width="100%" height="100%" fill="#ffffff"/>
+            <g transform="translate(50,20)">
+              <text x="0" y="48" font-family="Courier New, monospace" font-size="40" fill="hsl(${HUE},60%,40%)">🐍 Abdulrahman's Activity Snake</text>
+              <text x="0" y="90" font-family="Arial, sans-serif" font-size="12" fill="#444444">Updated: ${TIMESTAMP}</text>
+            </g>
+          </svg>
+          EOF
+          
+          git add assets/snake-dark.svg assets/snake-light.svg
+
+      - name: Commit & Push changes
+        run: |
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: update snake svgs - $GITHUB_SHA"
+            git push
+          else
+            echo "No changes to commit."
+          fi

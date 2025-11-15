@@ -96,3 +96,25 @@ Edit this `README.md` and add more project cards under the **Projects** section.
 ### Project Name — Short Tagline
 **Tech:** .NET, SQL Server, Docker  
 - 1–2 bullets describing impact, outcomes, and your role.
+```
+
+---
+
+## ⚙️ Files added to this repository
+
+- **README.md** (this file)
+- **assets/banner-dark.svg** & **assets/banner-light.svg** (SVG banners)
+- **assets/snake-dark.svg** & **assets/snake-light.svg** (snake images used by README)
+- **.github/workflows/update-snake.yml** (workflow that updates snake daily)
+
+---
+
+## 📬 Contact
+
+- **LinkedIn:** [https://www.linkedin.com/in/abdulrahmanmunimx/](https://www.linkedin.com/in/abdulrahmanmunimx/)
+- **Email:** [cw_16450321@hotmail.com](mailto:cw_16450321@hotmail.com) / [abdulrahman970213@outlook.com](mailto:abdulrahman970213@outlook.com)
+- **GitHub:** [https://github.com/abdulrahman0000123](https://github.com/abdulrahman0000123)
+
+---
+
+*If you want I can: add a Projects gallery (cards with screenshots), wire a true contributions-based snake generator, or produce a CV download button that links to your Google Drive CV.*
