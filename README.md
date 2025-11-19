@@ -63,7 +63,6 @@ I’m an IT & Software professional with **6+ years** experience in healthcare I
 - Patient emergency & inpatient records, unified DB, automated reports & ticket printing.  
 - Interfaces: Emergency Office / Admission Office / Medical Records.
 
-*(Add more projects below — see "How to add more projects" section.)*
 
 ---
 
@@ -88,5 +87,3 @@ I’m an IT & Software professional with **6+ years** experience in healthcare I
 - **GitHub:** [https://github.com/abdulrahman0000123](https://github.com/abdulrahman0000123)
 
 ---
-
-*If you want I can: add a Projects gallery (cards with screenshots), wire a true contributions-based snake generator, or produce a CV download button that links to your Google Drive CV.*
